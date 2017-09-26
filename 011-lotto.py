@@ -40,9 +40,8 @@ for i in range(0,6):
     winning_numbers.append(all[random_index])
     del(all[random_index])
 
-
 winning_numbers.sort()
 
-print(winning_numbers)
+print("Deine Zahlen:", winning_numbers)
 
 
