@@ -11,6 +11,7 @@ def_b = 12
     
 def default_werte(a, b=def_b):
     print(a,b)
+    return a,b 
     
 def kreisumfang(radius)    
 '''    
@@ -23,7 +24,7 @@ f_array(feld_main)
 print(feld_main)
 '''
 
-default_werte(b=8, a=13)
+c, d = default_werte(b=8, a=13)
 
 kreditrate(laufzeit=8,zinsatz=0.1,12,5)
 
