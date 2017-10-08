@@ -2,10 +2,7 @@
 # bewirkt das gleich
 from matplotlib import pyplot as plt
 
-mp = plt()
+plt.plot([1,2,3,4])
+plt.plot([2,3,4,5])
 
-mp.plot([1,2,3,4])
-mp.plot([2,3,4,5])
-mp.ylabel('some numbers')
-
-mp.savefig('foo.png')
+plt.show('foo.png')

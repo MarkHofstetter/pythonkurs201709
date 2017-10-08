@@ -6,7 +6,7 @@ message.send()
 
 # Objekt Instanzierung
 sms = SMS(sender = 'Mark')
-sms.content = 'Hallo SMS Welt'
+sms.content = 'Hallo alte SMS Welt'
 sms.recipient = 'Bla'
 print(sms.sender)
 sms.send()
